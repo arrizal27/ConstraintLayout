@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_launcher_background">
+    android:background="#7e3036">
     <FrameLayout android:id="@+id/imageView2"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -18,16 +18,16 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@drawable/Crimson_Lion" />
         <View
             android:layout_width="10dp"
             android:layout_height="match_parent"
-            android:background="@android:color/holo_orange_light"/>
+            android:background="#a68f45"/>
         <View
             android:layout_width="10dp"
             android:layout_height="match_parent"
             android:layout_gravity="right"
-            android:background="@android:color/holo_orange_light"/>
+            android:background="#a68f45"/>
     </FrameLayout>
     <Button
         android:id="@+id/tombol_login"
